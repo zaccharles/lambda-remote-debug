@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <AssemblyName>LambdaRemoteDebug</AssemblyName>
+    <Authors>Zac Charles</Authors>
+    <Description>Remotely debug .NET in AWS Lambda (with breakpoints)</Description>
+    <PackageId>LambdaRemoteDebug</PackageId>
+    <PackageTags>aws,lambda,remote,debugging</PackageTags>
+    <PackageProjectUrl>https://github.com/zaccharles/lambda-remote-debug</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/zaccharles/lambda-remote-debug/master/assets/logo.png</PackageIconUrl>
+    <PackageLicense>https://github.com/zaccharles/lambda-remote-debug/blob/master/LICENSE</PackageLicense>
+    <PackageLicenseUrl>https://github.com/zaccharles/lambda-remote-debug/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/zaccharles/lambda-remote-debug</RepositoryUrl>
+    <RootNamespace>LambdaRemoteDebug</RootNamespace>
+  </PropertyGroup>
+
+</Project>

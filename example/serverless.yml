@@ -1,0 +1,18 @@
+service: RemoteDebuggingFunction
+
+provider:
+  name: aws
+  runtime: dotnetcore2.1
+  region: eu-west-1
+  timeout: 10
+  environment:
+    LAMBDA_REMOTE_DEBUG_IP: 1.2.3.4
+    LAMBDA_REMOTE_DEBUG_PORT: 21426
+package:
+  artifact: bin/debug/netcoreapp2.1/deploy-package.zip
+
+functions:
+  hello:
+    handler: RemoteDebuggingFunction::RemoteDebuggingFunction.Handler::Hello
+    layers:
+      - arn:aws:lambda:<region>:<accountId>:layer:<name>:<version>

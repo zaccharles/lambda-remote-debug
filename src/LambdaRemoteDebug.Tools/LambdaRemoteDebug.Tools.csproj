@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <AssemblyName>LambdaRemoteDebug.Tools</AssemblyName>
+    <Authors>Zac Charles</Authors>
+    <Description>Command line tools to remotely debug .NET in AWS Lambda (see LambdaRemoteDebug package).</Description>
+    <PackageId>LambdaRemoteDebug.Tools</PackageId>
+    <PackageTags>aws,lambda,remote,debugging</PackageTags>
+    <PackageProjectUrl>https://github.com/zaccharles/lambda-remote-debug</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/zaccharles/lambda-remote-debug/master/assets/tools-logo.png</PackageIconUrl>
+    <PackageLicense>https://github.com/zaccharles/lambda-remote-debug/blob/master/LICENSE</PackageLicense>
+    <LicenseUrl>https://github.com/zaccharles/lambda-remote-debug/blob/master/LICENSE</LicenseUrl>
+    <PackageLicenseUrl>https://github.com/zaccharles/lambda-remote-debug/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/zaccharles/lambda-remote-debug</RepositoryUrl>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>lrdbg</ToolCommandName>
+    <RootNamespace>LambdaRemoteDebug.Tools</RootNamespace>
+  </PropertyGroup>
+
+</Project>
